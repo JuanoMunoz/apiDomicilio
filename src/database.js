@@ -1,2 +1,2 @@
 import mongoose from "mongoose";
-mongoose.connect('').then(()=>{console.log('connected to mongo')}).catch(e=>{console.log('error connecting to mongo')})
+mongoose.connect('mongodb+srv://juanjosemunozva:Amoelanime1@domicilio.8coi5iz.mongodb.net/?retryWrites=true&w=majority&appName=domicilio').then(()=>{console.log('connected to mongo')}).catch(e=>{console.log('error connecting to mongo')})
