@@ -1,5 +1,5 @@
 import { Router } from "express";
-import domicilio from "../model/domicilio.js";
+import domicilio from "../model/Domicilio.js";
 const domicilioRouter = Router()
 domicilioRouter.get('/domicilio', async (req, res) => {
     const allDomicilios = await domicilio.find();
